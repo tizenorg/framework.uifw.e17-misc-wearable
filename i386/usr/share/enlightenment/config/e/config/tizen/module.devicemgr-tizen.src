@@ -1,0 +1,23 @@
+group "Devicemgr_Config" struct {
+    value "ScrnConf.enable" uchar: 1;
+    value "ScrnConf.default_dispmode" int: 1;
+    value "ScrnConf.isPopUpEnabled" uchar: 0;
+    group "rotation" list {
+         group "E_Devicemgr_Config_Rotation" struct {
+              value "enable" uchar: 1;
+              value "angle" int: 270;
+         }
+         group "E_Devicemgr_Config_Rotation" struct {
+              value "enable" uchar: 1;
+              value "angle" int: 0;
+         }
+         group "E_Devicemgr_Config_Rotation" struct {
+              value "enable" uchar: 0;
+              value "angle" int: 180;
+         }
+         group "E_Devicemgr_Config_Rotation" struct {
+              value "enable" uchar: 1;
+              value "angle" int: 90;
+         }
+    }
+}

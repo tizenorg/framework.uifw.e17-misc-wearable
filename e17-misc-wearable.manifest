@@ -1,0 +1,8 @@
+<manifest>
+   <request>
+      <domain name="e17" />
+   </request>
+  <assign>
+      <filesystem path="/opt/home/app/.e" label="e17::config" type="transmutable"/>
+  </assign>
+</manifest>

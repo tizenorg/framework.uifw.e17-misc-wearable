@@ -1,0 +1,52 @@
+group "Illume_Config" struct {
+    group "policy.zones" list {
+        group "Illume_Config_Zone" struct {
+            value "id" int: 0;
+            value "mode.dual" int: 0;
+            value "mode.side" int: 0;
+        }
+    }
+    value "version" int: 1;
+    value "animation.vkbd.duration" int: 1000;
+    value "animation.quickpanel.duration" int: 700;
+    value "policy.name" string: "illume";
+    value "policy.vkbd.class" string: "Virtual-Keyboard";
+    value "policy.vkbd.name" string: "Virtual-Keyboard";
+    value "policy.vkbd.title" string: "Virtual Keyboard";
+    value "policy.vkbd.type" int: 8;
+    value "policy.vkbd.match.class" int: 0;
+    value "policy.vkbd.match.name" int: 1;
+    value "policy.vkbd.match.title" int: 1;
+    value "policy.vkbd.match.type" int: 0;
+    value "policy.indicator.class" string: "Illume-Indicator";
+    value "policy.indicator.name" string: "Illume-Indicator";
+    value "policy.indicator.title" string: "Illume Indicator";
+    value "policy.indicator.type" int: 2;
+    value "policy.indicator.match.class" int: 0;
+    value "policy.indicator.match.name" int: 1;
+    value "policy.indicator.match.title" int: 1;
+    value "policy.indicator.match.type" int: 0;
+    value "policy.softkey.class" string: "Illume-Softkey";
+    value "policy.softkey.name" string: "Illume-Softkey";
+    value "policy.softkey.title" string: "Illume Softkey";
+    value "policy.softkey.type" int: 2;
+    value "policy.softkey.match.class" int: 0;
+    value "policy.softkey.match.name" int: 1;
+    value "policy.softkey.match.title" int: 1;
+    value "policy.softkey.match.type" int: 0;
+    value "policy.home.class" string: "Illume-Home";
+    value "policy.home.name" string: "Illume-Home";
+    value "policy.home.title" string: "Illume Home";
+    value "policy.home.type" int: 8;
+    value "policy.home.match.class" int: 0;
+    value "policy.home.match.name" int: 1;
+    value "policy.home.match.title" int: 1;
+    value "policy.home.match.type" int: 0;
+    value "use_mem_trim" uchar: 1;
+    value "display_name.mobile" string: "mobile";
+    value "display_name.desktop" string: "desktop";
+    value "display_name.popsync" string: "popsync";
+    value "use_indicator_widget" uchar: 1;
+    value "use_force_iconify" uchar: 1;
+    value "floating_control_threshold" int: 20;
+}

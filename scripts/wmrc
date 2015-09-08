@@ -1,0 +1,3 @@
+#!/bin/sh
+
+EVAS_NO_DRI_SWAPBUF=1 /usr/bin/enlightenment_start -profile tizen -i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it &
